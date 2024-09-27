@@ -1,0 +1,94 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0%;
+}
+.bg-image1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./imgs/header-bg.jpg);
+  /* background-size: cover; */
+  background-position: top;
+  display: flexbox;
+}
+
+.logo-container {
+  height: 10vh;
+  width: 40%;
+  display: flex;
+  align-items: centre;
+  justify-content: center;
+}
+.header-abouts {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 7%;
+}
+.navbar {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  margin-left: 22px;
+  margin-right: 22px;
+  color: white;
+  text-decoration: none;
+}
+.menu:hover {
+  color: red;
+}
+.body-content {
+  height: 20vh;
+  width: 38%;
+  margin-left: 130px;
+  margin-top: 150px;
+}
+.body-content h1 {
+  color: white;
+  font-size: 41px;
+}
+.body-content h2 {
+  color: bisque;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.body-content span {
+  color: #d9232e;
+}
+.body-download {
+  background-color: #d9232e;
+  height: 70px;
+  width: 350px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.body-download img {
+  height: 25px;
+  width: 25px;
+  padding-right: 20px;
+}
+.body-content p {
+  color: white;
+  margin-top: 25px;
+}
+.allign-photo {
+  display: flex;
+}
+.duhh {
+  margin-top: 50px;
+  margin-left: 90px;
+  padding-left: 30px;
+  height: 100vh;
+  width: 35%;
+}
