@@ -2,13 +2,23 @@
   font-family: "Montserrat", sans-serif;
   margin: 0%;
 }
+
+body{
+  background-color: #1A1D24;
+
+}
+
 .bg-image1 {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-image: url(./imgs/header-bg.jpg);
+  background-color: pink;
   /* background-size: cover; */
   background-position: top;
   display: flexbox;
+  border-radius: 0 0 100% 100% / 15% 15%; 
+  overflow: hidden;
+  z-index: 99989;
 }
 
 .logo-container {
@@ -70,7 +80,7 @@
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 40px;
 }
 .body-download img {
@@ -87,8 +97,176 @@
 }
 .duhh {
   margin-top: 50px;
-  margin-left: 90px;
+  margin-left: 100px;
   padding-left: 30px;
-  height: 100vh;
-  width: 35%;
+  height: 110vh;
+  width: 37%;
 }
+.tanjiro{
+  background-color: #1A1D24;
+  height: 150vh;
+  width: 100%;
+}
+.ds1 img{
+  height: 60vh;
+  width: 36.5%;
+  background-size: contain;
+}
+.ds1{
+  margin-top: 8%;
+  margin-left: 8%;
+  display: flex;
+}
+.what-is-anilab{
+  margin-left: 60px;
+  /* margin-top: 16px; */
+  width: 50%;
+  display: flex;
+  margin-right: 50px;
+  flex-direction: column;
+  justify-content: center ;
+}
+.what-is-anilab h1{
+  color: white;
+  font-size: 40px;
+}
+.what-is-anilab span{
+  color: #D9232E;
+}
+.what-is-anilab p{
+  color: #898E9A;
+  font-size: 16px;
+
+}
+.why-Anilab h1{
+  margin-left: 125px;
+  font-size: 38px;
+  margin-top: 128px;
+  color: white;
+}
+.why-Anilab{margin-bottom: 62px;
+}
+.why-Anilab h1 span{
+  color: #D9232E;
+}
+.box1{
+  height: 300px;
+  width: 380px;
+  /* margin-left: 125px; */
+}
+.box1 img{
+  height: 60px;
+  width: 60px;
+}
+.p1{
+  font-size: 19px;
+  line-height: 25px;
+  color: white;
+}
+.p2{
+  font-size: 16px;
+  line-height: 23px;
+  color: #898E9A;
+}
+.reasons-anilab-l1{
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.reasons-anilab-l2{
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.devices
+{
+  background-color: #22252E;
+  height: 90vh;
+  width: 100%;
+}
+.install-anilab{
+  width: 100% ;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items:end ;
+}
+.install-anilab p{
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+}
+.android{
+  height: 275px;
+  width: 400px;
+  background-color: #2D3039;
+  border-radius: 30px;
+margin-top: 40px;
+}
+.android:hover{
+  background-color: #393B43;
+}
+.for-android{
+  height: 5vh;
+  width: 100%;
+  display: flex; justify-content: center; align-items: start; 
+  padding-top: 30px;
+}
+.download-for-android{
+height: 50px;
+width: 330px;
+background-color: #D9232E;
+display: flex;
+color: white;
+border-radius: 40px;
+justify-content: center;
+align-items: center;
+margin-top: 95px;
+margin-left: 26px;
+margin-left: 35px;
+}
+.download-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.footer img{
+  height: 9vh;
+  width: 100%;
+  display: flex;
+  align-items: centre;
+  justify-content: center;
+  padding-top: 60px;
+}
+  .footer{
+    height: 50vh;
+    width: 100%;
+    background-color: #15181E;
+  }
+  .footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+  }
+  .userhandles{
+    height: 0px;
+    width: 100%;
+    /* background-color: darkblue; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .userhandles a{
+    height: 1px;
+    width: 50px;
+    margin: 5px;
+    font-size: 30px;
+  }
